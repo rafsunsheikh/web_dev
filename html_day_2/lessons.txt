@@ -1,0 +1,12 @@
+1. HTML line break <br>
+2. Horizontal line <hr>
+3. Tables <tables> 
+    Table Header <th> 
+    Table Rows <tr> 
+    Table Columns <td>
+    ########Learn Rowspan and Colspan###########
+4. Forms
+5. Inputs
+6. Placeholders (input)
+7. values (input)
+8. label

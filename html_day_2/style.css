@@ -1,0 +1,35 @@
+#top-section-heading{
+    color: red; 
+    font-size: 48px;
+}
+#top-section{
+    padding: 5%;
+}
+#top-h1{
+    color: blue;
+}
+#top-h2{
+    color: yellow;
+}
+#top-h3{
+    color: tomato;
+}
+#top-p1{
+    color: blue;
+}
+#top-p2{
+    color: tomato;
+}
+#top-p3{
+    color: yellow;
+}
+.top-div-h1{
+    color: aqua;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.top-div-p{
+    color:blueviolet;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
