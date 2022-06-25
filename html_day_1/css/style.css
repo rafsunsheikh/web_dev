@@ -1,0 +1,14 @@
+div{
+    background-color: black;
+}
+h1{
+    background-color: red;
+}
+p{
+    border: 10px;
+    padding: 30px ;
+    background-color: violet;
+}
+.basic{
+    background-color: yellow;
+}
