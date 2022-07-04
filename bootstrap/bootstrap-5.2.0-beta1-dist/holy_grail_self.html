@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <title>Holy Grail HTML</title>
     <style>
         .banner{
@@ -12,12 +13,21 @@
             width: 100%;
         }
         .thumbnail{
-            height: 200px;
-            width: 350px;
+            width: 95%;
         }
         .logo{
-            height: 100px;
-            width: 100px;
+            height: 90px;
+            width: 90px;
+        }
+        .website-head{
+            font-weight: 300;
+            font-size: x-large;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .website-tag{
+            font-weight: 300;
+            font-size: medium;
+            font-family: 'Courier New', Courier, monospace;
         }
     </style>
 </head>
@@ -26,33 +36,36 @@
 
     <!-- Main Body -->
     
-        <div id="menu-bar" class="col-12 bg-dark text-center text-white">
+        <div id="menu-bar" class="col-md-12 bg-dark text-center text-white">
             <div class="row">
-                <div class="col-md-1 p-3">
+                <div class="col-md-2 p-3">
                     <a href="#"><img class="logo" src="img/logo.png" alt=""></a>
                 </div>
-                <div class="col-md-2 py-5"><a href="#" class="text-decoration-none text-white">Bangladesh Army</a></div>
-                <div class="col-md-5">
+                <div class="col-md-3 p-4">
+                    <div class="col-md-12 website-head text-start"><a href="#" class="text-decoration-none text-white">Bangladesh Army</a></div>
 
+                    <div class="col-md-12 website-tag text-start"><a href="#" class="text-decoration-none text-white">Pride of the nation</a></div>
                 </div>
+                
+                <div class="col-md-3"></div>
                 <div class="col-md-1 py-5"><a href="#" class="text-decoration-none text-white">Home</a></div>
                 <div class="col-md-1 py-5"><a href="#" class="text-white text-decoration-none">About</a></div>
                 <div class="col-md-1 py-5"><a href="#" class="text-white text-decoration-none">Contact</a></div>
                 <div class="col-md-1 py-5"><a href="#" class="text-white text-decoration-none">Blog</a></div>
             </div>
         </div>
-        <header>
-            <img class="banner" src="img/banner.jpg" alt="" srcset="">
+        <header class="my-1">
+            <img class="banner" src="img/Military-Banner.png" alt="" srcset="">
         </header>
-        <div class="container-fluid">
+        <div class="container-fluid my-1">
         <div class="row">
             <!-- Left Menu -->
-            <div class="col-3 bg-primary py-5">
+            <div class="col-3 bg-primary py-5 mx-auto">
                 <div class="d-grid gap-2 col-10 mx-auto">
-                    <button type="button" class="btn btn-dark"><a href="#" class="text-decoration-none text-white">Home</a></button>
-                    <button type="button" class="btn btn-dark"><a href="#" class="text-decoration-none text-white">About</a></button>
-                    <button type="button" class="btn btn-dark"><a href="#" class="text-decoration-none text-white">Contacts</a></button>
-                    <button type="button" class="btn btn-dark"><a href="#" class="text-decoration-none text-white">Blogs</a></button>
+                    <button type="button" class="btn btn-primary"><a href="#" class="text-decoration-none text-white">Home</a></button>
+                    <button type="button" class="btn btn-primary"><a href="#" class="text-decoration-none text-white">About</a></button>
+                    <button type="button" class="btn btn-primary"><a href="#" class="text-decoration-none text-white">Contacts</a></button>
+                    <button type="button" class="btn btn-primary"><a href="#" class="text-decoration-none text-white">Blogs</a></button>
                 </div>
             </div>
             <!-- Cneter Content -->
@@ -61,22 +74,22 @@
                 <!-- First Content -->
                 <div class="row mx-auto">
                     <div class="col-4 my-5">
-                        <img class="thumbnail" src="img/thumbnail.webp" alt="">
+                        <a href="#"><img class="thumbnail" src="img/thumbnail.webp" alt=""></a>
                     </div>
                     <div class="col-8 bg-inverse my-5 text-wrap">
-                        <h1 class="text-dark">First Main Heading</h1>
-                        <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum veritatis ab hic vel. Debitis aut omnis deleniti fuga. Accusamus deleniti vero, deserunt culpa eum dolorem saepe nobis nesciunt quam commodi cumque! Aut dignissimos hic expedita numquam natus soluta est tempora tempore unde, vitae nisi provident, nesciunt debitis, magnam amet illum.</p>   
+                        <a href="#" class="text-decoration-none"><h1 class="text-dark">First Main Heading</h1></a>
+                        <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum veritatis ab hic vel. Debitis aut omnis deleniti fuga. Accusamus deleniti vero, deserunt culpa eum dolorem saepe nobis nesciunt quam commodi cumque! Aut dignissimos hic expedita numquam natus soluta est tempora tempore unde, vitae nisi provident, nesciunt debitis, magnam amet illum... <a href="#" class="text-white">read more</a></p>   
                     </div>
                 </div>
 
                 <!-- Second Content -->
                 <div class="row mx-auto">
                     <div class="col-4 my-5">
-                        <img class="thumbnail" src="img/thumbnail.webp" alt="">
+                        <a href="#"><img class="thumbnail" src="img/thumbnail.webp" alt=""></a>
                     </div>
                     <div class="col-8 bg-inverse my-5 text-wrap">
-                        <h1 class="text-dark">Second Main Heading</h1>
-                        <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum veritatis ab hic vel. Debitis aut omnis deleniti fuga. Accusamus deleniti vero, deserunt culpa eum dolorem saepe nobis nesciunt quam commodi cumque! Aut dignissimos hic expedita numquam natus soluta est tempora tempore unde, vitae nisi provident, nesciunt debitis, magnam amet illum.</p>   
+                        <a href="#" class="text-decoration-none"><h1 class="text-dark">Second Main Heading</h1></a>
+                        <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum veritatis ab hic vel. Debitis aut omnis deleniti fuga. Accusamus deleniti vero, deserunt culpa eum dolorem saepe nobis nesciunt quam commodi cumque! Aut dignissimos hic expedita numquam natus soluta est tempora tempore unde, vitae nisi provident, nesciunt debitis, magnam amet illum... <a href="#" class="text-white">read more</a></p>   
                     </div>
                 </div>
                 
@@ -92,5 +105,6 @@
             <a href="#" class="text-decoration-none text-white">MD Rafsun Sheikh</a>
         </div>
     </footer>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
