@@ -27,20 +27,18 @@ body{
 }
 #sidebar{
     width: 25%;
-    background-color: aqua;
 }
 #content-article{
     width: 75%;
-    background-color: cadetblue;
 }
 .sidebar{
-    color: aliceblue;
     list-style: none;
     text-align: center;
     padding: 30px;
     font-size: large;
     font-weight: normal;
     font-family: 'Roboto', sans-serif;
+    color: black;
 }
 a:link{
     text-decoration: none;
